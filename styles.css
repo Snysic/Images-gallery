@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+.gallery-container {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    gap: 1px; 
+    flex-wrap: wrap; 
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow-x: auto; 
+    width: 100%; 
+    box-sizing: border-box; 
+}
+.gallery-item {
+    text-align: center;
+    flex: 0 0 auto;
+}
+.gallery-item img {
+    width: 400px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+.caption {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
